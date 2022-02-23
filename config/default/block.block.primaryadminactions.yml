@@ -1,0 +1,18 @@
+uuid: f4a05870-603f-4d76-b3c9-b1cc28209678
+langcode: en
+status: false
+dependencies:
+  theme:
+    - simplesmart
+id: primaryadminactions
+theme: simplesmart
+region: header
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

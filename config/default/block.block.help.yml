@@ -1,0 +1,20 @@
+uuid: 1cf93d2f-913e-4552-8d75-868393e0a457
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - simplesmart
+id: help
+theme: simplesmart
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: visible
+visibility: {  }

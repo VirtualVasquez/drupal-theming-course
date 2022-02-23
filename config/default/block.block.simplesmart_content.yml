@@ -1,0 +1,22 @@
+uuid: 22830c2d-d247-490d-91e8-5a8ceb1088bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - simplesmart
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: simplesmart_content
+theme: simplesmart
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
